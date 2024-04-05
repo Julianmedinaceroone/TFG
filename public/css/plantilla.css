@@ -1,0 +1,145 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+/*   HEADER    */
+header {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav {
+    margin-left: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 10px;
+}
+
+
+
+
+
+/*   FOOTER   */
+footer {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+}
+
+footer nav {
+    margin-left: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer nav a {
+    margin: 0 10px;
+}
+
+
+
+/*   IMAGENES, LOGOS, ETC   */
+.usuario {
+    display: flex; /* Establecer el contenedor como flexbox */
+    align-items: center; /* Centrar verticalmente los elementos */
+    color:white;
+}
+
+.usuario span {
+    color: red;
+    font-size: 14px;
+    margin-right: 5px; /* Ajusta el margen entre el nombre de usuario y "Log out" */
+}
+
+.logout {
+    color: white;
+    font-size: 14px;
+}
+
+.login {
+    color: red;
+    font-size: 14px;
+}
+
+.register {
+    color: white;
+    font-size: 14px;
+}
+
+
+.logo {
+    max-width: 100px; /* Ancho máximo del contenedor del logo en pantallas grandes */
+}
+
+
+.registro {
+    max-width: 50px; /* Ancho máximo de la imagen en pantallas grandes */
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+/*   RESPONSIVE  MOVIL   */
+@media screen and (max-width: 768px) {
+    .logo {
+        max-width: 80px; /* Reducir el ancho máximo del contenedor del logo en pantallas pequeñas si es necesario */
+    }
+
+    .registro img{
+        max-width: 40px;
+    }
+    
+    footer nav a {
+        font-size: 0.8rem; /* Reducir el tamaño de fuente del texto del header y del footer en pantallas pequeñas */
+    }
+
+    header nav a {
+        font-size: 0.8rem; /* Reducir el tamaño de fuente del texto del header y del footer en pantallas pequeñas */
+    }
+
+    .usuario {
+        display: flex; /* Establecer el contenedor como flexbox */
+        align-items: center; /* Centrar verticalmente los elementos */
+        color:white;
+    }
+    
+    .usuario span {
+        color: red;
+        font-size: 0.8rem;
+        margin-right: 5px; /* Ajusta el margen entre el nombre de usuario y "Log out" */
+    }
+    
+    .logout {
+        color: white;
+        font-size: 0.8rem;
+    }
+    
+    .login {
+        color: red;
+        font-size: 0.8rem;
+    }
+    
+    .register {
+        color: white;
+        font-size: 0.8rem;
+    }
+}

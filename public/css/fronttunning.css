@@ -1,0 +1,652 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.espacio1 {
+    background-color: white;
+    padding: 40px; /* Espaciado interno */
+    max-width: 100%; /* Ancho de la ventana */
+    height: 600px; /* Altura de la ventana */
+    overflow:hidden;
+    position: relative;
+    height: 800px;
+}
+
+.espacio1 h1 {
+    margin: 100px;
+    color:brown; /* Color del título */
+    font-size: 35px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.espacio1 p {
+    margin-top: 10px;
+    margin-left: 90px;
+    color: black; /* Color del texto */
+    font-size: 25px; /* Tamaño del texto */
+}
+
+
+.img{
+    position: absolute;
+    width: 40%;
+    top: calc(10% + 40px);/* Calcula la posición debajo del h1 */
+    right: calc(7%);
+}
+
+
+.espacio2 {
+    overflow:hidden;
+    height: 900px;
+    position: relative;
+}
+
+.espacio2 .coche {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.espacio2 h1 {
+    color:white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:5%;
+}
+
+.espacio2 p {
+    color:red;
+    text-align: center;
+    margin-top:2%;
+    font-size: 1.6vw;
+}
+
+.espacio2 .stageuno {
+    color:white;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 42%; /* Alinea los elementos verticalmente al 50% del contenedor */
+    left: calc(27%);
+}
+
+.espacio2 .stagedos {
+    color:white;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 52%; /* Alinea los elementos verticalmente al 50% del contenedor */
+    left: calc(27%);
+}
+
+.espacio2 .stagetres {
+    color:white;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 62%; /* Alinea los elementos verticalmente al 50% del contenedor */
+    left: calc(27%);
+}
+
+.subrayado {
+    position: relative;
+}
+
+.subrayado::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 37.5%;
+    width: 25%;
+    height: 3px;
+    background-color: red;
+}
+
+.espacio2 .grafica1 {
+    margin-left: 30%;
+    width: 50%;;
+}
+
+
+
+
+
+.espacio3 {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.espacio3 h1 {
+    color:white;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subrayado {
+    position: relative;
+}
+
+.subrayado::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 37.5%;
+    width: 25%;
+    height: 3px;
+    background-color: red;
+}
+
+.espacio3 p {
+    color: white;
+    text-align: center;
+    margin-top:0.4%;
+    font-size: 1.6vw;
+}
+
+.espacio3 .seatleondetras {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.espacio3 .mecanico {
+    margin-top: -10%;
+    margin-left: 2%;
+    width: 40%;
+    height: 60%;
+}
+
+.espacio3 .papel {
+    margin-top: -25%;
+    margin-left: 58.5%;
+    width: 40%;
+    height: 60%;
+}
+
+
+
+.espacio4 {
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.espacio4 h1 {
+    color:white;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subrayado {
+    position: relative;
+}
+
+.subrayado::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 37.5%;
+    width: 25%;
+    height: 3px;
+    background-color: red;
+}
+
+.espacio4 p {
+    color: white;
+    text-align: center;
+    margin-top:0.4%;
+    font-size: 1.6vw;
+}
+
+.espacio4 .reguera {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.espacio5 {
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.espacio5 .nissan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.espacio5 h1 {
+    color:white;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subrayado {
+    position: relative;
+}
+
+.subrayado::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 37.5%;
+    width: 25%;
+    height: 3px;
+    background-color: red;
+}
+
+.espacio5 .cliente1 {
+    text-align: center;
+}
+
+.espacio5 .cliente1 .comment1 {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente para resaltar sobre el fondo oscuro */
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%; /* Ajusta el ancho máximo según sea necesario */
+    position: absolute; /* Otra opción de posicionamiento */
+    top: calc(25% + 40px); /* Calcula la posición debajo del h1 */
+    right: calc(13%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombreado sutil */
+}
+
+.espacio5 .cliente1 .comment1 h2 {
+    font-size: 18px; /* Tamaño del nombre */
+    color: brown; /* Color del nombre */
+    margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+}
+
+.espacio5 .cliente1 .comment1 .comment-text {
+    font-size: 16px; /* Tamaño del texto del comentario */
+    color: white; /* Color del texto del comentario */
+    margin-top: 5px; /* Espacio entre el nombre y el comentario */
+    line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+}
+
+.espacio5 .cliente1 .seisL {
+    margin-top: auto;
+    margin-left:10%;
+    width: 40%;
+}
+
+
+.espacio5 .cliente2 {
+    text-align: center;
+}
+
+.espacio5 .cliente2 .comment2 {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente para resaltar sobre el fondo oscuro */
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%; /* Ajusta el ancho máximo según sea necesario */
+    position: absolute; /* Otra opción de posicionamiento */
+    top: calc(49% + 40px); /* Calcula la posición debajo del h1 */
+    right: calc(13%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombreado sutil */
+}
+
+.espacio5 .cliente2 .comment2 h2 {
+    font-size: 18px; /* Tamaño del nombre */
+    color: brown; /* Color del nombre */
+    margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+}
+
+.espacio5 .cliente2 .comment2 .comment2-text {
+    font-size: 16px; /* Tamaño del texto del comentario */
+    color: white; /* Color del texto del comentario */
+    margin-top: 5px; /* Espacio entre el nombre y el comentario */
+    line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+}
+
+.espacio5 .cliente2 .golf5 {
+    margin-top: auto;
+    margin-left:10%;
+    width: 40%;
+}
+
+
+.espacio5 .cliente3 {
+    text-align: center;
+}
+
+.espacio5 .cliente3 .comment3 {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente para resaltar sobre el fondo oscuro */
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%; /* Ajusta el ancho máximo según sea necesario */
+    position: absolute; /* Otra opción de posicionamiento */
+    top: calc(73% + 40px); /* Calcula la posición debajo del h1 */
+    right: calc(11%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombreado sutil */
+}
+
+.espacio5 .cliente3 .comment3 h2 {
+    font-size: 18px; /* Tamaño del nombre */
+    color: brown; /* Color del nombre */
+    margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+}
+
+.espacio5 .cliente3 .comment3 .comment3-text {
+    font-size: 16px; /* Tamaño del texto del comentario */
+    color: white; /* Color del texto del comentario */
+    margin-top: 5px; /* Espacio entre el nombre y el comentario */
+    line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+}
+
+.espacio5 .cliente3 .golf7 {
+    margin-top: auto;
+    margin-left:10%;
+    width: 40%;
+}
+
+
+/*   RESPONSIVE   PORTATIL */
+@media screen and (max-width: 1536px) {
+
+    #default-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ajustar la imagen para que cubra todo el espacio */
+    }
+
+
+    .espacio1 h1 {
+        font-size: 25px; /* Tamaño del título */
+    }
+    
+    .espacio1 p {
+        font-size:20px; /* Tamaño del texto */
+    }
+
+    
+    .espacio2 .grafica1 {
+        margin-left: 30%;
+        width: 50%;
+        margin-top: 7%;
+    }
+
+    .espacio3 .papel {
+        margin-top: -31%;
+        margin-left: 58.5%;
+        width: 40%;
+        height: 60%;
+    }
+
+    .espacio4 {
+        height:700px;
+
+    }
+    
+    .espacio5 .cliente1 .seisL {
+        margin-top: 4%;
+        margin-left:10%;
+        width: 40%;
+    }
+    
+    .espacio5 .cliente2 .golf5 {
+        margin-top: 2%;
+        margin-left:10%;
+        width: 40%;
+    }
+    
+    .espacio5 .cliente3 .golf7 {
+        margin-top: 1%;
+        margin-left:10%;
+        width: 40%;
+    }
+
+}
+
+
+
+
+/* RESPONSIVE MOVIL */
+@media only screen and (max-width: 600px) {  
+    #default-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+
+
+    /* ESPACIO1 */
+    .espacio1 {
+        height: 800px;
+        text-align:center;
+        padding: 10px;
+        
+    }
+
+    .espacio1 h1 {
+        text-align: center;
+        font-size: 20px; /* Tamaño del título */
+    }
+
+    .espacio1 p {
+        text-align: center;
+        margin-right: 20%;
+        font-size: 15px; /* Tamaño del texto */
+    }
+
+
+    .img{
+        position: absolute;
+        width: 70%;
+        top: calc(55% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(14%);
+    }
+
+
+    /* ESPACIO2 */
+    .espacio2 {
+        height: 800px;
+        padding: 10px;
+    }
+
+    .espacio2 h1 {
+        text-align: center;
+        font-size: 5vw;
+        margin-top:10%;
+    }
+
+    .espacio2 p {
+        margin-top:2%;
+        font-size: 3vw;
+        padding: 10%;
+    }
+
+    .espacio2 .stageuno {
+        font-size: 3vw;
+        top: 60%; /* Alinea los elementos verticalmente al 50% del contenedor */
+        left: calc(10%);
+    }
+
+    .espacio2 .stagedos {
+        font-size: 3vw;
+        top: 60%; /* Alinea los elementos verticalmente al 50% del contenedor */
+        left: calc(40%);
+    }
+
+    .espacio2 .stagetres {
+        font-size: 3vw;
+        position: absolute;
+        top: 60%; /* Alinea los elementos verticalmente al 50% del contenedor */
+        left: calc(70%);
+    }
+
+    .espacio2 .subrayado::after {
+        left: 15%;
+        width: 70%;
+    }
+
+    .espacio2 .grafica1 {
+        margin-left: 10%;
+        width: 80%;;
+    }
+
+
+    /* ESPACIO3 */
+    .espacio3 h1 {
+        font-size: 6vw;
+    }
+
+    .espacio3 .subrayado::after {
+        left: 25%;
+        width: 50%;
+    }
+
+    .espacio3 p {
+        margin-top:0.4%;
+        font-size: 4.5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .espacio3 .mecanico {
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 60%;
+        height: 50%;
+    }
+
+    .espacio3 .papel {
+        margin-top: -83%;
+        margin-left: 34%;
+        width: 60%;
+        height: 50%;
+    }
+
+    .espacio4 {
+        height:500px;
+    }
+
+    .espacio4 h1 {
+        font-size: 6vw;
+    }
+
+    .espacio4 p {
+        margin-top:0.4%;
+        font-size: 3vw;
+    }
+
+    .espacio5 {
+        height: 700px;
+    }
+
+    .espacio5 h1 {
+        font-size:  6vw;
+    }
+
+
+    .espacio5 .cliente1 .comment1 {
+        padding: 10px;
+        max-width: 30%; /* Ajusta el ancho máximo según sea necesario */
+        position: absolute; /* Otra opción de posicionamiento */
+        top: calc(20% + 40px); /* Calcula la posición debajo del h1 */
+        right: calc(13%);
+    }
+
+    .espacio5 .cliente1 .comment1 h2 {
+        font-size: 12px; /* Tamaño del nombre */
+        color: brown; /* Color del nombre */
+        margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+    }
+
+    .espacio5 .cliente1 .comment1 .comment-text {
+        font-size: 8px; /* Tamaño del texto del comentario */
+        color: white; /* Color del texto del comentario */
+        margin-top: 5px; /* Espacio entre el nombre y el comentario */
+        line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+    }
+
+    .espacio5 .cliente1 .seisL {
+        margin-top: auto;
+        margin-left:10%;
+        width: 50%;
+    }
+
+    
+
+    .espacio5 .cliente2 .comment2 {
+        background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente para resaltar sobre el fondo oscuro */
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 30%; /* Ajusta el ancho máximo según sea necesario */
+        position: absolute; /* Otra opción de posicionamiento */
+        top: calc(41% + 40px); /* Calcula la posición debajo del h1 */
+        right: calc(13%);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombreado sutil */
+    }
+
+    .espacio5 .cliente2 .comment2 h2 {
+        font-size: 12px; /* Tamaño del nombre */
+        color: brown; /* Color del nombre */
+        margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+    }
+
+    .espacio5 .cliente2 .comment2 .comment2-text {
+        font-size: 8px; /* Tamaño del texto del comentario */
+        color: white; /* Color del texto del comentario */
+        margin-top: 5px; /* Espacio entre el nombre y el comentario */
+        line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+    }
+
+    .espacio5 .cliente2 .golf5 {
+        margin-top: auto;
+        margin-left:10%;
+        width: 50%;
+    }
+
+
+    .espacio5 .cliente3 .comment3 {
+        background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente para resaltar sobre el fondo oscuro */
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 30%; /* Ajusta el ancho máximo según sea necesario */
+        position: absolute; /* Otra opción de posicionamiento */
+        top: calc(61% + 40px); /* Calcula la posición debajo del h1 */
+        right: calc(13%);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombreado sutil */
+    }
+
+    .espacio5 .cliente3 .comment3 h2 {
+        font-size: 12px; /* Tamaño del nombre */
+        color: brown; /* Color del nombre */
+        margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+    }
+
+    .espacio5 .cliente3 .comment3 .comment3-text {
+        font-size: 8px; /* Tamaño del texto del comentario */
+        color: white; /* Color del texto del comentario */
+        margin-top: 5px; /* Espacio entre el nombre y el comentario */
+        line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+    }
+
+    .espacio5 .cliente3 .golf7 {
+        margin-top: auto;
+        margin-left:10%;
+        width: 50%;
+    }
+
+}

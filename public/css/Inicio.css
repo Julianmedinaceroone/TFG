@@ -1,0 +1,645 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.espacio1 {
+    background-color: white;
+    padding: 40px; /* Espaciado interno */
+    text-align:left; /* Alineación del contenido */
+    max-width: 100%; /* Ancho de la ventana */
+    height: 600px; /* Altura de la ventana */
+    
+}
+
+.espacio1 h1 {
+    margin: 100px;
+    color:brown; /* Color del título */
+    font-size: 30px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.espacio1 p {
+    margin-top: 10px;
+    margin-left: 100px;
+    color: black; /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+}
+
+.button {
+    margin: 100px;
+    background-color: black; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambio de cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+    margin-right: 30px; /*Para mover las cosas*/
+}
+
+.button:hover {
+    background-color: red; /* Cambio de color de fondo al pasar por encima */
+}
+
+.img{
+    position:relative;
+    margin-left: 75%;
+    top: -400px;
+}
+
+.espacio2 {
+    background-color: black;
+    max-width: 100%; /* Ancho de la ventana */
+    height: 150%; /* Altura de la ventana */
+    position:relative;
+}
+
+.espacio2 h1 {
+    color: white; /* Color del título */
+    font-size: 30px; /* Tamaño del título */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 20%; /* Sitúa el título en la mitad vertical */
+    right: 10%; /* Lo alinea a la derecha del contenedor */
+    transform: translateY(-50%); /* Centra verticalmente el título */
+}
+
+.espacio2 h2 {
+    color: blue; /* Color del título */
+    font-size: 30px; /* Tamaño del título */
+}
+
+.uno {
+    color: white; /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(35% + 40px);/* Calcula la posición debajo del h1 */
+    right: calc(7%);
+}
+
+.dos {
+    color: white; /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(40% + 40px);/* Calcula la posición debajo del h1 */
+    right: calc(11%);
+}
+
+.comment1 {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente para resaltar sobre el fondo oscuro */
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%; /* Ajusta el ancho máximo según sea necesario */
+    position: absolute; /* Otra opción de posicionamiento */
+    top: calc(15% + 40px); /* Calcula la posición debajo del h1 */
+    left: calc(8%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombreado sutil */
+}
+
+.comment1 h2 {
+    font-size: 18px; /* Tamaño del nombre */
+    color: brown; /* Color del nombre */
+    margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+}
+
+.comment1 .comment-text {
+    font-size: 16px; /* Tamaño del texto del comentario */
+    color: white; /* Color del texto del comentario */
+    margin-top: 5px; /* Espacio entre el nombre y el comentario */
+    line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+}
+
+
+.comment2 {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente para resaltar sobre el fondo oscuro */
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%; /* Ajusta el ancho máximo según sea necesario */
+    position: absolute; /* Otra opción de posicionamiento */
+    top: calc(35% + 40px); /* Calcula la posición debajo del h1 */
+    left: calc(8%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombreado sutil */
+}
+
+.comment2 h2 {
+    font-size: 18px; /* Tamaño del nombre */
+    color: brown; /* Color del nombre */
+    margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+}
+
+.comment2 .comment-text {
+    font-size: 16px; /* Tamaño del texto del comentario */
+    color: white; /* Color del texto del comentario */
+    margin-top: 5px; /* Espacio entre el nombre y el comentario */
+    line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+}
+
+.comment3 {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente para resaltar sobre el fondo oscuro */
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%; /* Ajusta el ancho máximo según sea necesario */
+    position: absolute; /* Otra opción de posicionamiento */
+    top: calc(55% + 40px); /* Calcula la posición debajo del h1 */
+    left: calc(8%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombreado sutil */
+}
+
+.comment3 h2 {
+    font-size: 18px; /* Tamaño del nombre */
+    color: brown; /* Color del nombre */
+    margin-bottom: 5px; /* Espacio adicional en la parte inferior del nombre */
+}
+
+.comment3 .comment-text {
+    font-size: 16px; /* Tamaño del texto del comentario */
+    color: white; /* Color del texto del comentario */
+    margin-top: 5px; /* Espacio entre el nombre y el comentario */
+    line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+}
+
+.img1 {
+    width: 100%;
+    height: 150%;
+    opacity: 0.3;
+}
+
+.rating {
+    color: orange; /* Color del texto */
+    font-size: 50px; /* Tamaño del texto */
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(20% + 40px);/* Calcula la posición debajo del h1 */
+    right: calc(8%);
+}
+
+
+.img2 {
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(50% + 40px);/* Calcula la posición debajo del h1 */
+    right: calc(10%);
+    max-width: 200px;
+}
+
+.espacio3 {
+    background-color: white;
+    max-width: 100%; /* Ancho de la ventana */
+    height: 150%; /* Altura de la ventana */
+    position: relative; /* Agrega posición relativa para alinear el video */
+    
+}
+
+.espacio3 video {
+    width: 100%;
+    height: 150%;
+}
+
+.espacio4 {
+    background-color: black;
+    max-width: 100%;
+    height: 150%;
+    position: relative;
+}
+
+.espacio4 .rx7{
+    width: 100%;
+    height: 150%;
+    opacity: 0.9;
+}
+
+.espacio4 .espacio4dentro {
+    position: absolute;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7); /* Opacidad para el fondo del div */
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
+}
+
+.espacio4 .espacio4dentro h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 60px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subrayado {
+    position: relative;
+}
+
+.subrayado::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 35%;
+    width: 30%;
+    height: 3px;
+    background-color: red;
+}
+
+.espacio4 .espacio4dentro .tunning {
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(30% + 40px);/* Calcula la posición debajo del h1 */
+    left: calc(10%);
+    max-width: 150px;
+}
+
+.espacio4 .espacio4dentro .tunning h2{
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(80% + 40px);/* Calcula la posición debajo del h1 */
+    left: calc(-10%);
+    font-size: 2vw;
+}
+
+
+.espacio4 .espacio4dentro .detailing {
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(31% + 40px);/* Calcula la posición debajo del h1 */
+    left: calc(43%);
+    max-width: 130px;
+}
+
+.espacio4 .espacio4dentro .detailing h2{
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(80% + 40px);
+    left: calc(-20%);
+    font-size: 2vw;
+}
+
+
+.espacio4 .espacio4dentro .mecanica {
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(31% + 40px);/* Calcula la posición debajo del h1 */
+    right: calc(10%);
+    max-width: 130px;
+}
+
+.espacio4 .espacio4dentro .mecanica h2{
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(80% + 40px);
+    right: calc(-20%);
+    font-size: 2vw;
+}
+
+
+
+/*   RESPONSIVE   PORTATIL */
+@media screen and (max-width: 1536px) {
+
+    #default-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ajustar la imagen para que cubra todo el espacio */
+    }
+
+    .espacio4 .espacio4dentro .tunning h2{
+        position: absolute; /* Posicionamiento absoluto */
+        top: calc(80% + 40px);/* Calcula la posición debajo del h1 */
+        left: calc(3%);
+        font-size: 2vw;
+    }
+    
+}
+
+
+
+/*   RESPONSIVE   TABLET */
+@media screen and (max-width: 1200px) {
+
+    #default-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ajustar la imagen para que cubra todo el espacio */
+    }
+
+    .espacio1{
+        height: auto;
+        margin-bottom: 7%;
+    }
+
+    .espacio1 h1{
+        font-size: 3vw;
+        margin: 5%;
+    }
+    
+    .espacio1 p{
+        font-size: 2.5vw;
+        margin: 1% 5%;
+    }
+
+    .button {
+        font-size: 3vw;
+        margin-left: 35%;
+        padding: 1% 2%;
+
+    }
+
+    .img {
+        position: relative;
+        margin-left: 15%;
+        top:10%;
+        width: 60%;
+        height: 60%;
+    }
+
+    .espacio2 {
+        height: 800px;
+        padding: 5%;
+    }
+
+    .espacio2 h1{
+        font-size: 4vw;
+        text-align:center;
+        position: absolute;
+        top: calc(25% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(35%);
+    }
+
+    
+    .rating {
+        font-size: 5vw;
+        position: absolute;
+        top: calc(35% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(35%);
+    }
+
+    .uno {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        text-align:center;
+        position: absolute;
+        top: calc(60% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(25%);
+    }
+
+    .dos {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        text-align:center;
+        position: absolute;
+        top: calc(70% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(38%); 
+    }
+
+    .img2 {
+        display:none;
+    }
+
+
+    .espacio2 h2,
+    .comment1,
+    .comment2,
+    .comment3,
+    .comment1 h2,
+    .comment2 h2,
+    .comment3 h2,
+    .comment1 .comment-text,
+    .comment2 .comment-text,
+    .comment3 .comment-text {
+        display: none; /* Oculta los comentarios en dispositivos móviles */
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .espacio3 {
+        height: auto;
+    }
+
+    .espacio3 video {
+        width: 100%;
+        height: auto;
+    }
+
+    .espacio4 .rx7{
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+    }
+
+    .espacio4 .espacio4dentro {
+        width: 90%;
+        height: 80%;
+        top: 10%;
+        left: 5%;
+    }
+
+    .espacio4 .espacio4dentro h1 {
+        font-size: 5vw;
+    }
+
+    .subrayado::after {
+        width: 30%;
+        left: 35%;
+    }
+
+
+    .espacio4 .espacio4dentro .tunning {
+        position: absolute; /* Posicionamiento absoluto */
+        top: calc(30% + 40px);/* Calcula la posición debajo del h1 */
+        left: calc(10%);
+        max-width: 70px;
+    }
+
+    .espacio4 .espacio4dentro .tunning h2{
+        display:none;
+    }
+    
+    
+    .espacio4 .espacio4dentro .detailing {
+        position: absolute; /* Posicionamiento absoluto */
+        top: calc(31% + 40px);/* Calcula la posición debajo del h1 */
+        left: calc(43%);
+        max-width: 70px;
+    }
+
+    .espacio4 .espacio4dentro .detailing h2{    
+        display:none;
+    }
+    
+    
+    .espacio4 .espacio4dentro .mecanica {
+        position: absolute; /* Posicionamiento absoluto */
+        top: calc(31% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(10%);
+        max-width: 70px;
+    }
+
+    .espacio4 .espacio4dentro .mecanica h2{
+        display:none;
+    }
+
+
+}
+
+
+
+
+/*   RESPONSIVE   MÓVIL */
+@media screen and (max-width: 600px) {
+
+
+    #default-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ajustar la imagen para que cubra todo el espacio */
+    }
+
+    .espacio1{
+        height: auto;
+        padding: 5%;
+    }
+
+    .espacio1 h1{
+        font-size: 4vw;
+        margin: 5%;
+    }
+    
+    .espacio1 p{
+        font-size: 3vw;
+        margin: 1% 5%;
+    }
+
+    .button {
+        font-size: 3vw;
+        margin-left: 35%;
+        padding: 1% 2%;
+
+    }
+
+    .img {
+        position: relative;
+        margin-left: 15%;
+        top:10%;
+        width: 60%;
+        height: 60%;
+    }
+
+    .espacio2 {
+        height: 230px;
+        padding: 5%;
+    }
+
+    .espacio2 h1{
+        font-size: 4vw;
+        text-align:center;
+        position: absolute;
+        top: calc(0% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(35%);
+    }
+
+    
+    .rating {
+        font-size: 5vw;
+        position: absolute;
+        top: calc(5% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(35%);
+    }
+
+    .uno {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        text-align:center;
+        position: absolute;
+        top: calc(30% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(25%);
+    }
+
+    .dos {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        text-align:center;
+        position: absolute;
+        top: calc(40% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(38%); 
+    }
+
+    .img2 {
+        display:none;
+    }
+
+
+    .espacio2 h2,
+    .comment1,
+    .comment2,
+    .comment3,
+    .comment1 h2,
+    .comment2 h2,
+    .comment3 h2,
+    .comment1 .comment-text,
+    .comment2 .comment-text,
+    .comment3 .comment-text {
+        display: none; /* Oculta los comentarios en dispositivos móviles */
+    }
+
+    .img1 {
+        position: absolute;
+        top: calc(-15% + 40px);
+        right: calc(0%);
+        width: 100%;
+        height: 800px;
+        opacity: 0.3;
+    }
+
+    .espacio3 {
+        height: auto;
+    }
+
+    .espacio3 video {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .espacio4 .rx7{
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+    }
+
+    .espacio4 .espacio4dentro {
+        width: 90%;
+        height: 80%;
+        top: 10%;
+        left: 5%;
+    }
+
+    .espacio4 .espacio4dentro h1 {
+        font-size: 5vw;
+    }
+
+
+    .subrayado::after {
+        width: 30%;
+        left: 35%;
+    }
+
+
+    .espacio4 .espacio4dentro .tunning {
+        position: absolute; /* Posicionamiento absoluto */
+        top: calc(30% + 40px);/* Calcula la posición debajo del h1 */
+        left: calc(10%);
+        max-width: 50px;
+    }
+    
+    
+    .espacio4 .espacio4dentro .detailing {
+        position: absolute; /* Posicionamiento absoluto */
+        top: calc(31% + 40px);/* Calcula la posición debajo del h1 */
+        left: calc(43%);
+        max-width: 40px;
+    }
+    
+
+    .espacio4 .espacio4dentro .mecanica {
+        position: absolute; /* Posicionamiento absoluto */
+        top: calc(31% + 40px);/* Calcula la posición debajo del h1 */
+        right: calc(10%);
+        max-width: 40px;
+    }
+
+}

@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carrousel {
+    top:-10%;
+}
+
+.espacio {
+    height: 700px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.espacio .coche {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.espacio h2 {
+    color:white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:5%;
+}
+
+.subrayado {
+    position: relative;
+}
+
+.subrayado::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 41.5%;
+    width: 17%;
+    height: 3px;
+    background-color: red;
+}
+
+
+.espacio .primero{
+    color:white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:5%;
+}
+
+.espacio .segundo{
+    color:white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.espacio .button{
+        margin: 100px;
+        background-color: gray; /* Color de fondo del botón */
+        color: #fff; /* Color del texto del botón */
+        padding: 15px 30px; /* Espaciado interno */
+        border-radius: 10px; /* Bordes redondeados */
+        font-size: 20px; /* Tamaño del texto */
+        cursor: pointer; /* Cambio de cursor al pasar por encima */
+        transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+    
+
+.button:hover {
+        background-color: red; /* Cambio de color de fondo al pasar por encima */
+}
+
+
+
+
+
+
+
+
+/*   RESPONSIVE   TABLET */
+@media screen and (max-width: 1200px) {
+
+  
+    #default-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ajustar la imagen para que cubra todo el espacio */
+    }
+    
+    .espacio {
+        height: 600px;
+    }
+    
+    
+    .espacio h2 {
+        font-size: 4vw;
+    }
+    
+    
+    .subrayado::after {
+        left: 24%;
+        width: 50%;
+    }
+    
+    
+    .espacio .primero{
+        font-size: 3vw;
+    }
+    
+    .espacio .segundo{
+        font-size: 3vw;
+    }
+    
+    .espacio .button{
+            padding: 10px 20px; /* Espaciado interno */
+    }
+        
+
+}
+
+
+
+
+/* RESPONSIVE MOVIL */
+@media only screen and (max-width: 600px) {  
+
+  
+    #default-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ajustar la imagen para que cubra todo el espacio */
+    }
+    
+    .espacio {
+        height: 600px;
+    }
+    
+    
+    .espacio h2 {
+        font-size: 6vw;
+    }
+    
+    
+    .subrayado::after {
+        left: 24%;
+        width: 50%;
+    }
+    
+    
+    .espacio .primero{
+        font-size: 4vw;
+    }
+    
+    .espacio .segundo{
+        font-size: 4vw;
+    }
+    
+    .espacio .button{
+            padding: 10px 20px; /* Espaciado interno */
+    }
+        
+
+}

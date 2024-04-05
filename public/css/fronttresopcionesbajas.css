@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5%;
+}
+
+.img {
+    position: fixed;
+    top: 0;
+    right:20%;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca la imagen detrás de todo el contenido */
+    opacity: 0.2; /* Ajusta la opacidad según lo desees */
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenido {
+    margin-top: 5%;
+    padding: 50px;
+    background-color: white;
+    width: 1000px;
+    position: relative;
+    left: calc(20%);
+    border-radius: 10px;
+}
+
+.contenido a {
+    display: block; /* Hace que el botón sea un bloque */
+    margin: 0 auto; /* Centra horizontalmente el botón dentro del div */
+    padding: 8px 16px; /* Ajusta el relleno del botón */
+    background-color: black; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    width: 5%;
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    text-decoration: none;
+}
+
+.contenido a:hover {
+    background-color: red; /* Cambia el color de fondo cuando se pasa el cursor */
+}
+
+
+/*   RESPONSIVE   PORTATIL */
+@media screen and (max-width: 1536px) {
+    
+    .contenido {
+        margin-top: 5%;
+        padding: 50px;
+        background-color: white;
+        width: 1000px;
+        position: relative;
+        left: calc(8%);
+        border-radius: 10px;
+    }
+    
+    .contenido a {
+        display: block; /* Hace que el botón sea un bloque */
+        margin: 0 auto; /* Centra horizontalmente el botón dentro del div */
+        padding: 8px 16px; /* Ajusta el relleno del botón */
+        background-color: black; /* Color de fondo */
+        color: white; /* Color del texto */
+        border: none; /* Sin borde */
+        width: 5%;
+        border-radius: 5px; /* Borde redondeado */
+        cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+        text-decoration: none;
+    }
+    
+    .contenido a:hover {
+        background-color: red; /* Cambia el color de fondo cuando se pasa el cursor */
+    }
+    
+}
+
+
+
+
+
+/*   RESPONSIVE   TABLET */
+@media screen and (max-width: 1200px) {
+
+    body{
+        padding: 5%;
+    }
+
+    .img {
+        position: fixed;
+        top: 0;
+        right:20%;
+        width: 100%;
+        height: auto;
+        z-index: -1; /* Coloca la imagen detrás de todo el contenido */
+        opacity: 0.2; /* Ajusta la opacidad según lo desees */
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 4vw;
+    }
+    
+    .contenido {
+        font-size: 2vw;
+        width: 800px;
+        height: auto;
+        position: relative;
+        left: calc(10%);
+    }
+    
+    .contenido a {
+        padding: 4px 16px; /* Ajusta el relleno del botón */
+        width: 15%;
+    }
+
+}
+
+
+
+/* RESPONSIVE MOVIL */
+@media only screen and (max-width: 600px) {  
+
+    body{
+        padding: 5%;
+    }
+
+    .img {
+        position: fixed;
+        top: 0;
+        right:20%;
+        width: 100%;
+        height: auto;
+        z-index: -1; /* Coloca la imagen detrás de todo el contenido */
+        opacity: 0.2; /* Ajusta la opacidad según lo desees */
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 4vw;
+    }
+    
+    .contenido {
+        font-size: 2vw;
+        width: 200px;
+        height: auto;
+        position: relative;
+        left: calc(10%);
+    }
+    
+    .contenido a {
+        padding: 4px 16px; /* Ajusta el relleno del botón */
+        width: 15%;
+    }
+    
+}

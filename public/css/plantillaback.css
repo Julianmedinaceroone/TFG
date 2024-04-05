@@ -1,0 +1,200 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+/*   HEADER   */ 
+header {
+    display: flex;
+    height: 70px;
+    background-color:lightblue;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav {
+    margin-left: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 10px;
+}
+
+
+
+/*   FOOTER   */
+footer {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+}
+
+footer nav {
+    margin-left: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer nav a {
+    margin: 0 10px;
+}
+
+
+
+/*   IMAGENES, LOGOS, ETC   */
+.logo {
+    max-width: 100px; /* Ancho máximo del contenedor del logo en pantallas grandes */
+}
+
+.registro img {
+    max-width: 50px; /* Ancho máximo de la imagen en pantallas grandes */
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+.usuario {
+    display: flex; /* Establecer el contenedor como flexbox */
+    align-items: center; /* Centrar verticalmente los elementos */
+    color:white;
+}
+
+.usuario span {
+    color: red;
+    font-size: 14px;
+    margin-right: 5px; /* Ajusta el margen entre el nombre de usuario y "Log out" */
+}
+
+.logout {
+    color: white;
+    font-size: 14px;
+}
+
+.login {
+    color: red;
+    font-size: 14px;
+}
+
+.register {
+    color: white;
+    font-size: 14px;
+}
+
+/* Estilo para el contenedor principal */
+.auth-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para el formulario */
+.auth-form {
+    margin-bottom: 20px;
+}
+
+/* Estilo para las etiquetas del formulario */
+.auth-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para los inputs del formulario */
+.auth-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilo para los botones */
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilo para los enlaces */
+.auth-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.auth-link:hover {
+    text-decoration: underline;
+}
+
+/*   RESPONSIVE  MOVIL   */
+@media screen and (max-width: 768px) {
+    .logo {
+        max-width: 80px; /* Reducir el ancho máximo del contenedor del logo en pantallas pequeñas si es necesario */
+    }
+
+    .registro img{
+        max-width: 40px;
+    }
+    
+    footer nav a {
+        font-size: 0.8rem; /* Reducir el tamaño de fuente del texto del header y del footer en pantallas pequeñas*/ 
+    }
+
+    header nav a {
+        font-size: 0.8rem; /* Reducir el tamaño de fuente del texto del header y del footer en pantallas pequeñas */
+    }
+
+    
+    .usuario {
+        display: flex; /* Establecer el contenedor como flexbox */
+        align-items: center; /* Centrar verticalmente los elementos */
+        color:white;
+    }
+    
+    .usuario span {
+        color: red;
+        font-size: 0.8rem;
+        margin-right: 5px; /* Ajusta el margen entre el nombre de usuario y "Log out" */
+    }
+    
+    .logout {
+        color: white;
+        font-size: 0.8rem;
+    }
+    
+    .login {
+        color: red;
+        font-size: 0.8rem;
+    }
+    
+    .register {
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
